@@ -1,0 +1,40 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:wheat;
+}
+#hr{
+    box-shadow: 0 0 5px 2px whitesmoke;
+}
+.resultscheck{
+    margin:30px auto;
+    width:40%;
+    height:40vh;
+    box-shadow:0 0 5px 3px whitesmoke;
+}
+.rform{
+    padding:10px;
+}
+#luname,#lhtno,#ldob{
+    font-size:20px;
+    font-weight: bold;
+}
+#uname,#htno,#dob{
+    margin:10px 0 0 0;
+    width:80%;
+    height:4vh;
+    border:1px solid tan; 
+}
+#uname:hover,#htno:hover,#dob:hover{
+    border:none;
+    box-shadow:0 0 5px 3px skyblue;
+}
+#ssubmit{
+    height:3vh;
+    width:20%;
+    float:right;
+    margin:5px 10px 0 0;
+}

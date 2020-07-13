@@ -1,0 +1,10 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.form{
+    width:90%;
+    height:60vh;
+    margin:10px auto;
+}

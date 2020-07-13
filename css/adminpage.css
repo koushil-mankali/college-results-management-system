@@ -1,0 +1,39 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:wheat;
+}
+#hr{
+    box-shadow: 0 0 5px 2px whitesmoke;
+}
+.header{
+    width:100%;
+    height:10vh;
+    background-color:tomato;
+}
+.name{
+    font-size:30px;
+    font-weight: bold;
+    padding:20px 0 0 20px;
+    color:white;
+}
+.btndiv{
+    width:90%;
+    height:20vh;
+    margin:50px auto -60px;
+}
+.add,.change{
+    height:5vh;
+    width:40vw;
+    text-align:center;
+}
+.logout{
+    float:right;
+    margin:25px 50px 0 0;
+    height:30px;
+    width:80px;
+    box-shadow:0 0 5px 3px whitesmoke;
+}

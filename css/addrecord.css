@@ -1,0 +1,81 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.form{
+    width:90%;
+    height:60vh;
+    margin:10px auto;
+}
+.fs1,.fs2,.fs3{
+    margin:10px 0 0 0;
+}
+lable{
+    padding-left:40px;
+}
+input[type='text'],[type='date']{
+    width:220px;
+   float:right;
+   margin-right:330px;
+}
+@media screen and (max-width:700px){
+    input[type='text'],[type='date']{
+        float:right;
+        margin-right:50px;
+     }
+}
+@media screen and (min-width:701px){
+    input[type='text'],[type='date']{
+        float:right;
+        margin-right:250px;
+     }
+}
+@media screen and (min-width:900px){
+    input[type='text'],[type='date']{
+        float:right;
+        margin-right:400px;
+     }
+}
+@media screen and (min-width:1000px){
+    input[type='text'],[type='date']{
+        float:right;
+        margin-right:450px;
+     }
+}
+@media screen and (min-width:1200px){
+    input[type='text'],[type='date']{
+        float:right;
+        margin-right:650px;
+     }
+}
+@media screen and (min-width:1201px){
+    input[type='text'],[type='date']{
+        float:right;
+        margin-right:700px;
+     }
+}
+@media screen and (min-width:1300px){
+    input[type='text'],[type='date']{
+        float:right;
+        margin-right:800px;
+     }
+}
+.table{
+    width:100%;
+}
+.tr{
+    width:100%;
+    background-color:darkcyan;
+    font-weight:bold;
+    font-size:20px;
+}
+td{
+    text-align:center;
+}
+.tr2:nth-child(even){
+    background-color:rosybrown;
+}
+.tr2:nth-child(odd){
+    background-color:palevioletred;
+}

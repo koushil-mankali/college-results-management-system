@@ -1,0 +1,33 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.header{
+    width:100%;
+    height:10vh;
+    background-color:tomato;
+}
+.name{
+    font-size:30px;
+    font-weight: bold;
+    padding:20px 0 0 20px;
+    color:white;
+}
+.login{
+    float:right;
+    margin:25px 50px 0 0;
+    height:30px;
+    width:80px;
+    box-shadow:0 0 5px 3px whitesmoke;
+}
+.schimg{
+    width:80%;
+    height:20vh;
+    margin:10px auto 10px;
+}
+.banner{
+    width:100%;
+    height:100%;
+    box-shadow:0 0 5px 3px whitesmoke;
+}

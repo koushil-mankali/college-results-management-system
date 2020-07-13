@@ -1,0 +1,41 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+body{
+    background-color:wheat;
+}
+#hr{
+    box-shadow: 0 0 5px 2px whitesmoke;
+}
+.outer{
+    width:80%;
+    height:55vh;
+    margin:20px auto;
+    border:2px solid black;
+}
+.inner{
+    margin:20px;
+}
+#name,#htno,#pf{
+    font-size:20px;
+    margin:10px;
+}
+table{
+    width:100%;
+    height:30vh;
+    margin:5px;
+}
+td{
+    text-align:center;
+}
+#total{
+    font-weight:bold;
+    text-align:center;
+    margin-top:10px;
+}
+#complaint{
+    font-weight: bold;
+    margin:0 0 0 10px;
+}
