@@ -1,4 +1,4 @@
-Simple School Results Management System
+College Results Management System
 ***************************************
 #####################################################################################################################
 #This Project's Database is in database folder you must create "results" named database in you'r database and import# 
@@ -27,12 +27,11 @@ Header
 ------
 1.School Name
 2.right side admin login
-3.scholl photo
+3.school photo
 4.check results
     i.name
     ii.H.t.no
-    iii.DOB
-    iv.submit
+    iii.submit
 
 Results.php
 ===========
@@ -48,15 +47,12 @@ Header
         c.grades
         d.credits
     v.total
-2.complaint
 
 AdminPage.php
 =============
 1.add results
 2.update results
 3.delete results
-{% comment %} 4.check complaints and give replies. {% endcomment %}
-
 
 DATABASE
 =========
